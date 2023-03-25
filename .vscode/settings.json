@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "Container",
-        "Marketing"
+        "Marketing",
+        "Auth"
     ]
 }

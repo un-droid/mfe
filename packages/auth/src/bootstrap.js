@@ -27,8 +27,8 @@ const mount = (el, { onNavigate, defaultHistory, initialPath}) => {
 // if we are in dev and in isolation, call the mount immediately
 
 if (process.env.NODE_ENV === 'development') {
-    console.log('marketing');
-    const devRoot = document.querySelector('#_merketing-dev-root');
+    console.log('auth');
+    const devRoot = document.querySelector('#_auth-dev-root');
     if (devRoot) {
         mount(devRoot, {defaultHistory: createBrowserHistory()});
     }
